@@ -19,7 +19,6 @@ use models::UnsplashResponse;
 #[command(author, version, about, long_about = None)]
 pub struct Args {
     pub query: String,
-    pub count: u16,
     pub text: String,
     pub font_size: u32,
     pub border_radius: u32,
